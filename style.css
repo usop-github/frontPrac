@@ -1,0 +1,166 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+h3 {
+    font-size: 20px;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+ul, li {
+    list-style-type: none;
+}
+
+ul {
+    border-top: solid 1px #c7babaf7;
+}
+
+li {
+    padding:5px;
+    border-bottom: dashed 1px #c7babaf7;
+}
+
+li > a {
+    font-weight:500;
+    text-decoration: none;
+    color : black;
+}
+
+a:hover {
+    cursor: pointer;
+    color : rgb(131, 10, 131);
+    text-decoration: underline;
+}
+
+span {
+    color:rgb(239, 55, 55);
+}
+
+
+
+/***** class css  ******/
+
+
+.container {
+    position: relative;
+}
+
+.header {
+    text-align: center;
+    margin-top:10px;
+    padding-bottom: 17px;
+    border-bottom:solid 1px black;
+}
+
+.nav {
+    position: absolute;
+    top: 117px;
+    left: 22%;
+    font-weight: bold;
+    font-size: 14px;
+    max-width: 1400px;
+}
+
+.menuBox {
+    width: 350px;
+    height: 65px;
+    border: solid 1px rgb(202, 193, 193);
+    float: left;
+    background-color: #f7f7f7f7;
+    text-align: center;
+    padding-top:20px;
+    margin:10px 20px 20px 0;
+}
+
+.menuBox > a {
+    text-decoration: none;
+    color : black;
+    font-size: 2.5em;
+}
+
+.main {
+    position:absolute;
+    top: 400px;
+    left: 20%;
+}
+
+.notice {
+    float:left;
+}
+
+.proposal {
+    margin-left: 40px;
+    float:left;
+}
+
+.ntdate {
+    padding-left : 120px;
+}
+
+.pDate {
+    padding-left : 350px;
+}
+
+.clear {
+    clear:both;
+}
+
+/******* #id css ********/
+
+#icon {
+    width:14px;
+    height:14px;
+    position: absolute;
+    left: 44%;
+}
+#icon-1 {
+    width:14px;
+    height:14px;
+    position: absolute;
+    left: 95%;
+}
+
+#icon2 {
+    width: 10px;
+    height: 10px;
+}
+
+#icon3 {
+    width: 14px;
+    height: 14px;
+}
+
+
+/******* footer  *******/
+
+footer {
+    width: 100%;    
+    height: 220px;
+    position: fixed;
+    bottom: 20px;
+    background-color: #333333;
+}
+
+.address_ul {
+    padding:20px;
+    margin: 0 200px 0 220px;
+}
+
+.address_ul > li > a {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    margin:10px;
+}
+
+.address_ul > li  {
+    color: rgb(188, 185, 185);
+    font-size: 14px;
+    font-weight: 900;
+}
+
+.address_ul > li > p {
+    padding: 5px;
+}
